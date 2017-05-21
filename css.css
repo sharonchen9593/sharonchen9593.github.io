@@ -40,20 +40,27 @@ h2 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
   padding: 40px;
+  margin:0;
 }
 
-.aboutme {
+#aboutme {
   background-color: white;
 }
 
 .parallaxAbout {
   background-image: url("images/image.jpg");
+  padding: 0;
+  margin: 0;
 }
 
-.projects {
+#projects {
   background-color: white;
 }
 
 .parallaxProj {
   background-image: url("images/image.jpg");
+  padding: 0;
+  margin: 0;
 }
+
+
