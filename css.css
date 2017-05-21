@@ -31,3 +31,29 @@ h1 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
+
+h2 {
+  position: relative;
+  font-size: 100px;
+  font-family: Arial;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 40px;
+}
+
+.aboutme {
+  background-color: white;
+}
+
+.parallaxAbout {
+  background-image: url("images/image.jpg");
+}
+
+.projects {
+  background-color: white;
+}
+
+.parallaxProj {
+  background-image: url("images/image.jpg");
+}
