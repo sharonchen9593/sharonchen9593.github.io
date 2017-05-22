@@ -2,6 +2,7 @@ body, html, head {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: Arial;
 }
 
 section {
@@ -27,10 +28,9 @@ section {
 h1 {
   position: relative;
   font-size: 150px;
-  font-family: Arial;
   text-align: center;
   margin: 0;
-  padding: 350px 0 0 50px;
+  padding: 300px 0 0 50px;
   color: white;
   text-shadow: 2px 2px 4px #000000;
   font-weight: bold;
@@ -53,7 +53,6 @@ h1 {
 h2 {
   position: relative;
   font-size: 100px;
-  font-family: Arial;
   text-align: center;
   color: white;
   text-shadow: 2px 2px 4px #000000;
@@ -110,35 +109,67 @@ footer {
   padding: 60px 0;
 }
 
-.timeline {
-  border-left: solid;
-  padding-bottom: 30px;
-  margin: 0 0 0 35%;
+.aboutme {
+  width: 30%;
+  float:left; /* add this */
+  margin: 30px;
+  padding: 30px;
 }
 
+.timeline {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  margin: 0;
+  overflow: hidden;
+}
+
+h4 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.timelineItems {
+  border-left: solid;
+  margin-left: 150px;
+}
 
 h3 {
-  padding-top: 50px;
-  padding-left: 0;
-  margin-left: -14px;
+  padding: 50px 0 0 0;
+  margin: 0 0 0 -15px;
   font-size: 30px;
 }
 
 .time, .title {
   padding-left: 20px;
+  margin: 0 ;
+}
+
+.time {
+  padding-bottom: 40px;
+}
+
+.tagline {
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 0;
   margin: 0;
 }
 
+.wrapper {
+  width: 500px;
+  border: 1px solid black;
+  overflow: hidden;
+}
 
-
-
-
-
-
-
-
-
-
+#selfie {
+  display: block;
+  margin: auto;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%
+}
 
 
 

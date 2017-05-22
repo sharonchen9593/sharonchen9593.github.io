@@ -19,8 +19,8 @@
         <i class="fa fa-linkedin-square fa-4x"></i><br> LinkedIn
       </button></a>
 
-      <button>
-        <i class="fa fa-book fa-4x"></i><br> Projects </button>
+      <a href = "#parallaxProj"><button>
+        <i class="fa fa-book fa-4x"></i><br> Projects </button></a>
 
       <button>
         <i class="fa fa-pencil fa-4x"></i><br> Blog </button>
@@ -29,6 +29,7 @@
     </section>
     <section class="parallaxTop">
       <h1>Sharon Chen</h1>
+      <p class = "tagline">UC Davis graduate who recently discovered a passion for programming</p>
       <p class = "arrow"><i class="fa fa-chevron-down"></i></p>
     </section>
 
@@ -37,13 +38,25 @@
       <h2>About Me</h2>
     </section> -->
 
-    <div id = "info">
-    <p>About Me</p>
+    <div id = "info wrapper">
+    <div class = "aboutme">
+    <img src = "images/selfie.jpg" id = "selfie" height = "50%" width = "54%">
+    <h4> About Me </h4>
+    <p>
+      My passion for software engineering stems from my love for challenges. I've worked in many positions that have lacked to chellenge me mentally and that is when I decided to pursue a career in software engineering. Studying part time while working was not enough for me, and in May of 2017, I quit my job to study full-time.
+    </p>
+    <p>
+      My current experience includes building full stack applications with React, Redux, and Angular 2 for the front-end; along with Node+Express with SQL or NoSQl databases for the back-end.
+    </p>
+
+    </div>
 
     <!-- Timeline Section Start -->
 
     <div class = "timeline">
-      <h3><i class="fa fa-certificate"></i> Software Engineer </h3>
+      <h4> Timeline </h4>
+      <div class = "timelineItems">
+      <h3> <i class="fa fa-certificate"></i> Software Engineer </h3>
       <p class = "title"> Self-Studying</p>
       <p class = "time"> May 2017 - Present </p>
       <h3><i class="fa fa-certificate"></i> Loan Simple, Inc. </h3>
@@ -55,6 +68,7 @@
       <h3><i class="fa fa-certificate"></i> University of California, Davis </h3>
       <p class = "title"> Backhelors Degree: Biological Sciences and Economics </p>
       <p class = "time"> September 2011 - June 2015 </p>
+      </div>
     </div>
 
 
@@ -65,7 +79,7 @@
 
 
 
-    <section class="parallaxProj">
+    <section class="parallaxProj" id="parallaxProj">
       <h2>Projects</h2>
     </section>
 
