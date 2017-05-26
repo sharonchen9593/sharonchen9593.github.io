@@ -189,3 +189,26 @@ h3 {
  40% {-webkit-transform: translateY(-15px);}
  60% {-webkit-transform: translateY(-15px);}
 }
+
+.projectsbox {
+  width: auto;
+  padding: 50px;
+  display:inline-block
+
+}
+
+.project {
+  width: 25%;
+  margin: 25px;
+  padding: 20px;
+  float: left;
+  border-style: solid;
+  border-color: grey;
+  text-align: center;
+  position: relative;
+
+}
+
+.pictures {
+  width: 100%;
+}
