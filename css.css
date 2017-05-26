@@ -166,6 +166,7 @@ h3 {
 .wrapper {
   width: 500px;
   border: 1px solid black;
+
   overflow: hidden;
 }
 
@@ -196,6 +197,14 @@ h3 {
   display:inline-block
 
 }
+
+.wrap{
+height:auto;
+width:500px;
+margin: auto;
+}
+
+
 
 .project {
   width: 25%;
