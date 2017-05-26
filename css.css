@@ -192,28 +192,20 @@ h3 {
 }
 
 .projectsbox {
+  text-align: center;
   width: auto;
   padding: 50px;
-  display:inline-block
 
 }
-
-.wrap{
-height:auto;
-width:500px;
-margin: auto;
-}
-
 
 
 .project {
   width: 25%;
-  margin: 30px 30px 30px 50px;
+  margin: 10px;
   padding: 20px;
-  float: left;
+  display: inline-block;
   border-style: solid;
   border-color: grey;
-  text-align: center;
   position: relative;
 
 }
