@@ -65,3 +65,9 @@ export const projects = [
     thumbnail: Quotes,
   },
 ];
+
+export const timeline = [
+  { name: "Uber", startDate: "June 2022", endDate: "Present" },
+  { name: "Google", startDate: "March 2019", endDate: "June 2022" },
+  { name: "Veeva Systems", startDate: "August 2017", endDate: "March 2019" },
+];
