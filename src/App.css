@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.title-section {
+  background-image: url("images/ggb.jpg");
+  font-weight: bold;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+}
+
+h1 {
+  font-size: 150px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.arrow-down {
+  animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  width: 100%;
+  font-size: 70px;
+}
+
+.about-me {
+  padding: 50px;
+  display: flex;
+  width: 50%;
+}
+
+.selfie {
+  border-radius: 50%;
+  width: 300px;
+  margin: 30px;
+}
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description {
+  align-self: start;
+}
+
+.header {
+  font-size: 70px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  text-align: center;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projects-header {
+  background-image: url("images/projectTitle.jpg");
+}
+
+.contact-me-header {
+  background-image: url("images/aboutMeTitle.jpg");
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.contact-me {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
